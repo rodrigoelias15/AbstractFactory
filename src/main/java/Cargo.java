@@ -6,5 +6,7 @@ public class Cargo implements Funcionario{
         this.folhaPagamento = gerar.createFolhaPagamento();
     }
 
-    public String emitirFolhaPagamento(){return this.folhaPagamento.emitir(nome, cargo, salario);}
+    public String emitirFolhaPagamento(String nome, String cargo, float salario){
+        return this.folhaPagamento.emitir(nome, cargo, salario);
+    }
 }
