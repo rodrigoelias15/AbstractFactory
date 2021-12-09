@@ -1,7 +1,7 @@
 public class FolhaPagamentoMedico implements FolhaPagamento{
 
     @Override
-    public String emitir(String nome, String matricula, float salario) {
-        return "Nome: "+nome+ ", Matricula: "+matricula+ ", Salario: "+salario;
+    public String emitir(String nome, String cargo, float salario) {
+        return "Nome: "+nome+ ", Matricula: "+cargo+ ", Salario: "+salario;
     }
 }

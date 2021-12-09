@@ -1,5 +1,5 @@
 public interface FolhaPagamento {
 
-    public String emitir(String nome, String matricula, float salario);
+    public String emitir(String nome, String cargo, float salario);
 
 }
